@@ -112,7 +112,7 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: inventory,
-        theme: 'btn-back-red',
+        theme: 'btn-back-yellow',
         name: 'Pocket Inventory',
         date: "September 2023 - December 2023",
         description: [' This Android app simplifies household inventory management for insurance purposes. Its user-friendly design prioritizes simplicity and flexibility for easy future development.',
