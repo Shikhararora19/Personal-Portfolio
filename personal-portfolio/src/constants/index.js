@@ -112,24 +112,35 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Pocket Inventory',
+        date: "September 2023 - December 2023",
+        description: [' This Android app simplifies household inventory management for insurance purposes. Its user-friendly design prioritizes simplicity and flexibility for easy future development.',
+            'The goal was to create an app for users to swiftly record, organize, and store item details, including categorization and image attachments.',
+            "Used Java and object oriented programming to develop the app and firedatabse to authorize each use."
+],
+        link: 'https://github.com/CMPUT301F23T07/pocket-inventory',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Weather App',
+        date: "May 2024 - May 2024",
+        description: ['The weather app is built using HTML, CSS, and JavaScript.',
+            'It provides real-time weather information by fetching data from a weather API.',
+            'The app allows users to search for weather information by city name and displays the current weather conditions, temperature, and humidity.',
+        ],
+        link: 'https://github.com/Shikhararora19/weather-app',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
+        name: 'Machine Learning Classification of MNIST Dataset',
+        description: ['Tuned SVM models to classify MNIST datasets, achieving a classification accuracy of 95%, enhancing model understanding of margins and hyperplanes for robust feature recognition.',
+            'Used Python libraries like NumPy, Matplotlib, and Scikit-learn to preprocess and classify data, and visualize model performance.',
+            'Configured CNNs on the MNIST fashion and numeric datasets, achieving accuracy of 98.5%; implemented confidence interval computations that improved model reliability in performance evaluations by upto 20%.',
+        ],
+    }];
+    /*
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
@@ -152,3 +163,4 @@ export const projects = [
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];
+*/
