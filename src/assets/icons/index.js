@@ -32,6 +32,7 @@ import sql from './sql.svg'
 import weather from './weather.svg'
 import ml from './ml.svg'
 import inventory from './inventory.svg'
+import portfolio from './portfolio.svg'
 
 export {
     css,
@@ -67,5 +68,6 @@ export {
     sql,
     weather,
     ml,
-    inventory
+    inventory,
+    portfolio
 }

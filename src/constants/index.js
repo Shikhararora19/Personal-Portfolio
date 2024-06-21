@@ -19,12 +19,12 @@ import {
     react,
     redux,
     ml,
-    snapgram,
     summiz,
     tailwindcss,
     threads,
     java,
-    weather
+    weather,
+    portfolio
 } from "../assets/icons";
 
 export const skills = [
@@ -140,15 +140,19 @@ export const projects = [
             'Used Python libraries like NumPy, Matplotlib, and Scikit-learn to preprocess and classify data, and visualize model performance.',
             'Configured CNNs on the MNIST fashion and numeric datasets, achieving accuracy of 98.5%; implemented confidence interval computations that improved model reliability in performance evaluations by upto 20%.',
         ],
+    },
+    
+    {
+        iconUrl: portfolio,
+        theme: 'btn-back-red',
+        name: 'Personal Portfolio',
+        description: ['This portfolio is built using three.js, tailwind css and react',
+            'It provides a brief introduction about me and showcases my skills and projects.',
+            'The app allows users to navigate through the different sections of the portfolio using the navigation bar.',
+        ],
+        link: 'https://github.com/Shikhararora19/Personal-Portfolio',
     }];
     /*
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
