@@ -12,18 +12,19 @@ import {
     linkedin,
     mongodb,
     sql,
-    mui,
+    inventory,
     nextjs,
     nodejs,
     pricewise,
     react,
     redux,
-    sass,
+    ml,
     snapgram,
     summiz,
     tailwindcss,
     threads,
-    java
+    java,
+    weather
 } from "../assets/icons";
 
 export const skills = [
@@ -110,7 +111,7 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: inventory,
         theme: 'btn-back-red',
         name: 'Pocket Inventory',
         date: "September 2023 - December 2023",
@@ -121,7 +122,7 @@ export const projects = [
         link: 'https://github.com/CMPUT301F23T07/pocket-inventory',
     },
     {
-        iconUrl: threads,
+        iconUrl: weather,
         theme: 'btn-back-green',
         name: 'Weather App',
         date: "May 2024 - May 2024",
@@ -132,7 +133,7 @@ export const projects = [
         link: 'https://github.com/Shikhararora19/weather-app',
     },
     {
-        iconUrl: car,
+        iconUrl: ml,
         theme: 'btn-back-blue',
         name: 'Machine Learning Classification of MNIST Dataset',
         description: ['Tuned SVM models to classify MNIST datasets, achieving a classification accuracy of 95%, enhancing model understanding of margins and hyperplanes for robust feature recognition.',

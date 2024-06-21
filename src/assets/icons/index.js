@@ -29,6 +29,9 @@ import soundoff from './soundoff.png'
 import java from './java.svg'
 import python from './python.svg'
 import sql from './sql.svg'
+import weather from './weather.svg'
+import ml from './ml.svg'
+import inventory from './inventory.svg'
 
 export {
     css,
@@ -61,5 +64,8 @@ export {
     soundoff,
     java,
     python,
-    sql
+    sql,
+    weather,
+    ml,
+    inventory
 }
