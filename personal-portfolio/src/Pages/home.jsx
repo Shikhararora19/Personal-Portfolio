@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import Loader from '../components/Loader'
@@ -7,8 +7,23 @@ import Sky from '../Models/Sky'
 import Bird from '../Models/Bird'
 import Plane from '../Models/Plane'
 import HomeInfo from '../components/HomeInfo'
+import sakura from '../assets/sakura.mp3'
+import { soundoff, soundon } from '../assets/icons'
 
 const home = () => {
+  const audioRef = useRef(new Audio(sakura));
+  audioRef.current.volume = 0.4;
+  audioRef.current.loop = true;
+  const [isPlayingMusic,setIsPlayingMusic] = useState(false);
+  useEffect(() => {
+    if (isPlayingMusic) {
+      audioRef.current.play();
+    }
+
+    return () => {
+      audioRef.current.pause();
+    }
+  },[isPlayingMusic]);
   const [isRotating, setIsRotating] = useState(false);
   const [currentStage, setCurrentStage] = useState(1);
 
@@ -80,6 +95,13 @@ const home = () => {
           />
         </Suspense>
       </Canvas>
+      <div className='absolute bottom-2 left-2'>
+        <img
+        src={!isPlayingMusic ? soundoff : soundon}
+        alt='sound'
+        className='w-10 h-10 cursor-pointer object-contain'
+        onClick={() => setIsPlayingMusic(!isPlayingMusic)}></img>
+      </div>
       
     </section>
   )
