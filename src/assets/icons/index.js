@@ -33,6 +33,8 @@ import weather from './weather.svg'
 import ml from './ml.svg'
 import inventory from './inventory.svg'
 import portfolio from './portfolio.svg'
+import latex from './latex.svg'
+import figma from './figma.svg'
 
 export {
     css,
@@ -69,5 +71,7 @@ export {
     weather,
     ml,
     inventory,
-    portfolio
+    portfolio,
+    latex,
+    figma
 }

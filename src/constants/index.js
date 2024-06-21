@@ -24,7 +24,9 @@ import {
     threads,
     java,
     weather,
-    portfolio
+    portfolio,
+    figma,
+    latex
 } from "../assets/icons";
 
 export const skills = [
@@ -87,7 +89,18 @@ export const skills = [
         imageUrl: java,
         name: "Java",
         type: "Backend",
-    }
+    },
+    {
+        imageUrl: figma,
+        name: "Figma",
+        type: "Frontend",
+    },
+    {
+        imageUrl: latex,
+        name: "Latex",
+        type: "Backend",
+    },
+
 ];
 
 

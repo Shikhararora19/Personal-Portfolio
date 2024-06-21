@@ -20,7 +20,7 @@ const renderContent = {
             <br></br>
 
             A Computer Science Student at University of Alberta
-            <br></br>
+
             Drag/use keyboard arrows to explore
 
         </h1>     
