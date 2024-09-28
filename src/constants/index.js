@@ -26,7 +26,9 @@ import {
     weather,
     portfolio,
     figma,
-    latex
+    latex,
+    poeltl,
+    news
 } from "../assets/icons";
 
 export const skills = [
@@ -124,15 +126,36 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: poeltl,
+        theme: 'btn-back-black',
+        name: 'Poeltl Solver',
+        description: ['Poeltl-Solver is a command-line application that helps you solve the popular NBA guessing game "Poeltl."',
+            "This project uses C++ with REST API integration for fetching real-time NBA player data and provides filtered guesses based on user feedback on each attempt.",
+            "Achieved success 90% of the time"
+        ],
+        link: 'https://github.com/Shikhararora19/Poeltl-Solver',
+    },
+    {
         iconUrl: inventory,
         theme: 'btn-back-yellow',
         name: 'Pocket Inventory',
         date: "September 2023 - December 2023",
-        description: [' This Android app simplifies household inventory management for insurance purposes. Its user-friendly design prioritizes simplicity and flexibility for easy future development.',
-            'The goal was to create an app for users to swiftly record, organize, and store item details, including categorization and image attachments.',
-            "Used Java and object oriented programming to develop the app and firedatabse to authorize each use."
+        description: [' Full-Stack Development: Contributed in the full-stack development of the ”Pocket Inventory” app, utilizing Java and Android Studio for the frontend and Firebase for backend data management, ensuring seamless synchronization of inventory data across devices.',
+            'User Experience Optimization: Implemented a dynamic user interface with real-time inventory updates, reducing user input time by 25% and improving overall app usability, leading to positive feedback from users.',
+            "Collaborative Project Management: Coordinated with a team of 5 developers using Agile methodologies, resulting in the successful delivery of all project milestones on time."
 ],
         link: 'https://github.com/CMPUT301F23T07/pocket-inventory',
+    },
+    {
+        iconUrl: news,
+        theme: 'btn-back-cyan',
+        name: 'News Aggregator',
+        date: 'August 2024',
+        description: ['Designed and Implemented Backend API: Developed a RESTful API using Python and Flask, enabling efficient data retrieval and processing from over 50 news sources, resulting in a seamless aggregation of real-time news.',
+            'Optimized for Performance: Achieved a 30% reduction in load times by optimizing the application’s data fetching algorithms and implementing asynchronous processing, enhancing the overall user experience.',
+            'Utilized react and CSS for the frontend development'
+        ],
+        link: 'https://github.com/Shikhararora19/news-aggregator'
     },
     {
         iconUrl: weather,
@@ -146,6 +169,16 @@ export const projects = [
         link: 'https://github.com/Shikhararora19/weather-app',
     },
     {
+        iconUrl: portfolio,
+        theme: 'btn-back-red',
+        name: 'Personal Portfolio',
+        description: ['This portfolio is built using three.js, tailwind css and react',
+            'It provides a brief introduction about me and showcases my skills and projects.',
+            'The app allows users to navigate through the different sections of the portfolio using the navigation bar.',
+        ],
+        link: 'https://github.com/Shikhararora19/Personal-Portfolio',
+    },
+    {
         iconUrl: ml,
         theme: 'btn-back-blue',
         name: 'Machine Learning Classification of MNIST Dataset',
@@ -155,30 +188,8 @@ export const projects = [
         ],
     },
     
-    {
-        iconUrl: portfolio,
-        theme: 'btn-back-red',
-        name: 'Personal Portfolio',
-        description: ['This portfolio is built using three.js, tailwind css and react',
-            'It provides a brief introduction about me and showcases my skills and projects.',
-            'The app allows users to navigate through the different sections of the portfolio using the navigation bar.',
-        ],
-        link: 'https://github.com/Shikhararora19/Personal-Portfolio',
-    }];
-    /*
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+    
+  
+    
 ];
-*/
+

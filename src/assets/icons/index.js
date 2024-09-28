@@ -35,6 +35,8 @@ import inventory from './inventory.svg'
 import portfolio from './portfolio.svg'
 import latex from './latex.svg'
 import figma from './figma.svg'
+import poeltl from './poeltl.svg'
+import news from './news.svg'
 
 export {
     css,
@@ -73,5 +75,7 @@ export {
     inventory,
     portfolio,
     latex,
-    figma
+    figma,
+    poeltl,
+    news
 }
