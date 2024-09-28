@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, vog } from "../assets/images";
 import {
     car,
     contact,
@@ -124,6 +124,20 @@ export const socialLinks = [
     }
 ];
 
+export const experiences = [
+    {
+        title: "Junior Developer",
+        company_name: "VOG buisness solutions",
+        icon: vog,
+        iconBg: "#accbe1",
+        date: "May 2024 - August 2024",
+        points: [
+            "Successfully Developed ”Rewards Club” Project: Led the development of the ”Rewards Club” project levereging HTML, CSS, JavaScript for the frontend.",
+            "Optimized System Performance: Implemented efficient BFS algorithms in C that improved the application speed by 20%, and optimized SQL database queries, resulting in a 15% increase in query performance.",
+            "Collaborative and Quality-Focused Development: Contributed high-quality code to the project, participated in code reviews, and ensured effective collaboration and code integrity through the use of Git and GitHub, ultimately improving project delivery by 10%.",
+        ],
+    }
+]
 export const projects = [
     {
         iconUrl: poeltl,
